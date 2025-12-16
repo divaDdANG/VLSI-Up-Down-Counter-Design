@@ -36,7 +36,7 @@ The RTL simulation of the Up-Down Counter was successfully verified using Cadenc
 -	Functional Coverage: Both incrementing and decrementing operations were validated, confirming full functionality of the design.
 -	Synthesis Verification: The Genus-generated netlist matches the RTL behavior, composed of flip-flops and combinational logic, confirming correct synthesis.
 
-# Tools use:
+# Tools used:
 Cadance Xcelium, Genus 
 
 # RUN DFT AND LEC CHECK:
@@ -71,8 +71,35 @@ Cadance Xcelium, Genus
 # Explanation:
 Complete DFT and LEC check with no detect error, every comparation and result are comeback as expect.
 
-# Tools use:
+# Tools used:
 Cadence Genus and Conformal
+
+
+# FLOORPLAN
+Moving to one of the most important step of the design, in this stage, we added 2 pins, scan_in and scan_out
+
+<img width="975" height="681" alt="image" src="https://github.com/user-attachments/assets/b6100f9e-90fb-44f6-b023-25943916598f" />
+
+# POWERPLAN
+Continue with Floorplan we build up Powerplan
+
+<img width="975" height="681" alt="image" src="https://github.com/user-attachments/assets/fc267e8b-167c-45dd-97ec-c1d078f1a705" />
+
+# PLACEMENT, CTS, AND ROUTING
+I'm combining these step together because it came in a series but usually you can do it seperately. In my opinon, this stage is the most complicated.
+
+<img width="975" height="690" alt="image" src="https://github.com/user-attachments/assets/54b49a4c-5001-4e3a-a945-b7003e84eceb" />
+
+# FINAL STAGE:
+We generate out .gds file (include everything from the beginning) and ready to send out for foundary.
+
+# Interpretation: 
+Successfully generated an up/down counter design using Cadance
+
+# Tools used:
+Cadance Innovus.
+
+
 
 
 
