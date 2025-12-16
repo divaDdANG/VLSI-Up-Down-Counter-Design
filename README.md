@@ -29,5 +29,12 @@ Developed a fully synchronous binary up/down counter with scan-enabled flip-flop
 
 <img width="850" height="751" alt="image" src="https://github.com/user-attachments/assets/ce72bbbb-b004-4ce4-a81a-30c8c5f2eb10" />
 
+# Code Coverage and Interpretation:
+The RTL simulation of the Up-Down Counter was successfully verified using Cadence Xcelium. The waveform shows correct up/down counting behavior with all bits of count[7:0] toggling during simulation.
+-	Statement & Branch Coverage: All RTL paths were exercised — reset, up-count, and down-count — achieving 100% statement and branch coverage.
+-	Toggle Coverage: All counter bits toggled between 0 and 1, giving 100% toggle coverage.
+-	Functional Coverage: Both incrementing and decrementing operations were validated, confirming full functionality of the design.
+-	Synthesis Verification: The Genus-generated netlist matches the RTL behavior, composed of flip-flops and combinational logic, confirming correct synthesis.
+
 # Tools use:
 Cadance Xcelium, Genus 
