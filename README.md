@@ -83,7 +83,7 @@ Moving to one of the most important step of the design, in this stage, we added 
 # POWERPLAN
 Continue with Floorplan we build up Powerplan
 
-<img width="975" height="681" alt="image" src="https://github.com/user-attachments/assets/fc267e8b-167c-45dd-97ec-c1d078f1a705" />
+<img width="975" height="708" alt="image" src="https://github.com/user-attachments/assets/451f5b58-a885-4f99-a2c7-e247452fce0a" />
 
 # PLACEMENT, CTS, AND ROUTING
 I'm combining these step together because it came in a series but usually you can do it seperately. In my opinon, this stage is the most complicated.
