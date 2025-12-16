@@ -38,3 +38,44 @@ The RTL simulation of the Up-Down Counter was successfully verified using Cadenc
 
 # Tools use:
 Cadance Xcelium, Genus 
+
+# RUN DFT AND LEC CHECK:
+1. DFT CHECK
+
+•	The percentage of total registers that are scannable
+
+<img width="903" height="591" alt="image" src="https://github.com/user-attachments/assets/a452cf3a-dc3a-40b8-b2f1-b77f2f460b48" />
+
+•	Scan chains reported
+
+<img width="480" height="379" alt="image" src="https://github.com/user-attachments/assets/d5b80b82-269d-44ab-b0f6-22100e48849e" />
+
+•	Schematic view of the design
+
+<img width="975" height="505" alt="image" src="https://github.com/user-attachments/assets/b3364d9a-e544-4d69-9768-4f6780c9372f" />
+
+2. LEC CHECK:
+
+•	Report key points are equivalent.
+
+<img width="826" height="558" alt="image" src="https://github.com/user-attachments/assets/c1efff01-c1e4-4d3a-bf01-2d5d2baa6ea2" />
+
+•	Verification report
+
+<img width="802" height="607" alt="image" src="https://github.com/user-attachments/assets/ff7955a8-6ee5-4321-8e22-2d14dc6ff6a9" />
+
+•	Compare revised vs. golden netlist files
+
+<img width="975" height="739" alt="image" src="https://github.com/user-attachments/assets/9fa8a25b-a97d-4bc9-9618-5074b4aa0476" />
+
+# Explanation:
+Complete DFT and LEC check with no detect error, every comparation and result are comeback as expect.
+
+# Tools use:
+Cadence Genus and Conformal
+
+
+
+
+
+
